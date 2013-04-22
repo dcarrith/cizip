@@ -1,4 +1,4 @@
-<?php
+<?php namespace Dcarrith\CIZip;
 /**
  * Zip Compression Class
  *
@@ -32,8 +32,6 @@ class CIZip  {
 	 */
 	public function __construct()
 	{
-		log_message('debug', "Zip Compression Class Initialized");
-
 		$this->now = time();
 	}
 
