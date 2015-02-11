@@ -19,7 +19,7 @@ class CIZipServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('dcarrith/cizip');
+		//$this->package('dcarrith/cizip');
 	}
 
 	/**
